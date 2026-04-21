@@ -258,7 +258,7 @@ class BayesClassifier:
             if word in freqs:
                 freqs[word] += 1
             else:
-                freqs[word] += 1 
+                freqs[word] = 1 
 
 
 if __name__ == "__main__":
